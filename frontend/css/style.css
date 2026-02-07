@@ -1,0 +1,70 @@
+/* GLOBAL THEME */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* CARD DESIGN */
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+/* HEADINGS */
+h4, h5 {
+    font-weight: 600;
+    color: #212529;
+}
+
+/* INPUT FOCUS */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.15rem rgba(13,110,253,.25);
+}
+
+/* PRIMARY BUTTON */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* SUCCESS BUTTON (Register) */
+.btn-success {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #0b5ed7;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #212529 !important;
+}
+
+/* LOGOUT BUTTON */
+.btn-danger {
+    background-color: #dc3545;
+}
+
+/* TASK LIST */
+.list-group-item {
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+/* LINKS */
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
