@@ -140,7 +140,7 @@ CREATE TABLE tasks (
 ### 🔐 Login Page
 
 ![Login Page](screenshots/login.png)
-(screenshots/login (2).png)
+![Login Page](screenshots/login1.png)
 
 ### 📝 Register Page
 
@@ -149,7 +149,7 @@ CREATE TABLE tasks (
 ### 📋 Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
-(/screenshots/tasks.png)
+![Dashboard](/screenshots/tasks.png)
 
 ---
 
