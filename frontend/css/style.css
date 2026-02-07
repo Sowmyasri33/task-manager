@@ -68,3 +68,15 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* ===== Dashboard Background (MATCH IMAGE 1) ===== */
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #2f6fed,
+        #5aa2ff
+    );
+}

@@ -1,6 +1,7 @@
 # 📝 Task Manager – Full Stack Web Application
 
-## 📌 Problem Statement  
+## 📌 Problem Statement
+
 **End-to-End Full Stack Web Application**
 
 Build a basic full-stack web application with complete frontend and backend integration, including user authentication, data management, and API communication.
@@ -11,10 +12,10 @@ Build a basic full-stack web application with complete frontend and backend inte
 
 The **Task Manager** is a full-stack web application that allows users to:
 
-- 🔐 Register and log in securely  
-- 📝 Create, view, and manage personal tasks  
-- 👤 Maintain user-specific data using sessions  
-- 🔗 Interact with a RESTful API-backed backend  
+- 🔐 Register and log in securely
+- 📝 Create, view, and manage personal tasks
+- 👤 Maintain user-specific data using sessions
+- 🔗 Interact with a RESTful API-backed backend
 
 This project demonstrates **system thinking, REST API design, and frontend–backend integration**.
 
@@ -23,30 +24,35 @@ This project demonstrates **system thinking, REST API design, and frontend–bac
 ## 🛠️ Tech Stack
 
 ### 🔹 Frontend
-- HTML5  
-- CSS3  
-- Bootstrap 5  
+
+- HTML5
+- CSS3
+- Bootstrap 5
 - JavaScript (Fetch API)
 
 ### 🔹 Backend
-- Python  
-- Flask  
-- Flask-CORS  
+
+- Python
+- Flask
+- Flask-CORS
 
 ### 🔹 Database
-- MySQL  
+
+- MySQL
 
 ---
 
 ## ✨ Features
 
 ### 🔐 Authentication
+
 - User registration
 - Secure login using hashed passwords
 - Session-based authentication
 - Logout functionality
 
 ### 📋 Task Management
+
 - Add tasks
 - View user-specific tasks
 - Delete tasks
@@ -87,25 +93,26 @@ Task-Manager/
 
 ### 🔐 Authentication APIs
 
-| Method | Endpoint | Description |
-|------|--------|------------|
-| POST | `/api/register` | Register new user |
-| POST | `/api/login` | User login |
-| POST | `/api/logout` | User logout |
+| Method | Endpoint        | Description       |
+| ------ | --------------- | ----------------- |
+| POST   | `/api/register` | Register new user |
+| POST   | `/api/login`    | User login        |
+| POST   | `/api/logout`   | User logout       |
 
 ### 📋 Task APIs
 
-| Method | Endpoint | Description |
-|------|--------|------------|
-| GET | `/api/tasks` | Fetch logged-in user tasks |
-| POST | `/api/tasks` | Add new task |
-| DELETE | `/api/tasks/<id>` | Delete task |
+| Method | Endpoint          | Description                |
+| ------ | ----------------- | -------------------------- |
+| GET    | `/api/tasks`      | Fetch logged-in user tasks |
+| POST   | `/api/tasks`      | Add new task               |
+| DELETE | `/api/tasks/<id>` | Delete task                |
 
 ---
 
 ## 🗄️ Database Schema
 
 ### 👤 Users Table
+
 ```sql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -116,6 +123,7 @@ CREATE TABLE users (
 ```
 
 ### 📝 Tasks Table
+
 ```sql
 CREATE TABLE tasks (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -130,12 +138,15 @@ CREATE TABLE tasks (
 ## 🖼️ Screenshots
 
 ### 🔐 Login Page
-![Login Page](screenshots/login.png)
+
+![Login Page]("C:\Users\sowmyasri\OneDrive\Pictures\Screenshots\Screenshot 2026-02-05 122320.png")
 
 ### 📝 Register Page
+
 ![Register Page](screenshots/register.png)
 
 ### 📋 Dashboard
+
 ![Dashboard](screenshots/dashboard.png)
 
 ---
@@ -143,17 +154,20 @@ CREATE TABLE tasks (
 ## ▶️ How to Run the Project
 
 ### Backend Setup
+
 ```bash
 pip install -r requirements.txt
 python app.py
 ```
 
 Backend runs on:
+
 ```
 http://localhost:5000
 ```
 
 ### Frontend
+
 - Open `index.html` in browser
 - Register → Login → Dashboard
 
@@ -161,14 +175,15 @@ http://localhost:5000
 
 ## ✅ Evaluation Focus
 
-| Criteria | Implementation |
-|--------|----------------|
-| System Thinking | Clear separation of frontend, backend, and database |
-| API Design | RESTful APIs |
-| Integration Quality | Fetch API with session handling |
+| Criteria            | Implementation                                      |
+| ------------------- | --------------------------------------------------- |
+| System Thinking     | Clear separation of frontend, backend, and database |
+| API Design          | RESTful APIs                                        |
+| Integration Quality | Fetch API with session handling                     |
 
 ---
 
 ## 👩‍💻 Author
+
 **Sowmya Sri**  
 Full Stack Developer (Student)
