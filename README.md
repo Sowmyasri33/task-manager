@@ -146,9 +146,9 @@ CREATE TABLE tasks (
 
 ![Register Page](screenshots/register.png)
 
-### 📋 Dashboard
+### Dashboard
 
-![Dashboard](screenshots/dashboardd.png)
+![Dashboard Screenshot](screenshots/dashboard.png)
 ![Dashboard](/screenshots/tasks.png)
 
 ---
