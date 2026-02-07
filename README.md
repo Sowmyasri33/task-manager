@@ -139,7 +139,8 @@ CREATE TABLE tasks (
 
 ### 🔐 Login Page
 
-![Login Page]("C:\Users\sowmyasri\OneDrive\Pictures\Screenshots\Screenshot 2026-02-05 122320.png")
+![Login Page](screenshots/login.png)
+(screenshots/login (2).png)
 
 ### 📝 Register Page
 
@@ -148,6 +149,7 @@ CREATE TABLE tasks (
 ### 📋 Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
+(/screenshots/tasks.png)
 
 ---
 
